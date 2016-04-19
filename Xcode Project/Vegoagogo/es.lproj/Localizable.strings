@@ -1,0 +1,76 @@
+/* es (SPANISH) Localized Strings */
+
+/* APPIRATOR */
+    "APPIRATOR_AppFullName" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VEG" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VGN" = "Veganagogo";
+
+    "APPIRATOR_Title" = "Tarifa %@";
+    "APPIRATOR_Msg" = "Si te gusta el uso de% @ ¿le importaría tomar un momento para evaluar lo?\n\nGracias por su apoyo!";
+    "APPIRATOR_Btn_Rate" = "Tarifa %@";
+    "APPIRATOR_Btn_Remind" = "Recuérdame más tarde";
+    "APPIRATOR_Btn_No" = "No, gracias";
+
+/* SETTINGS */
+    "Settings_Title" = "Ajustes";
+    "Settings_ChooseTheme" = "Elija un tema";
+
+/* ABOUT */
+    "About_Version" = "Versión";
+    "About_AllRights" = "Reservados todos los derechos";
+    "About_Visit" = "Visita Nuestro Sitio Web";
+    "About_Blurb_Vegan" = "En Agogo Apps tratamos de hacer una cosa y sólo una cosa, aunque ciertamente confiamos en hacerla muy bien. Estamos trabajando duro para ofrecer al viajero vegano moderno una app que aporte al menos un poco de confianza en una situación que ha causado pavor durante décadas a los veganos: pedir comida vegana cuando viajan al extranjero.";
+    "About_Blurb_Veggo" = "En Agogo Apps tratamos de hacer una cosa y sólo una cosa, aunque ciertamente confiamos en hacerla muy bien. Estamos trabajando duro para ofrecer al viajero vegetariano moderno una app que aporte al menos un poco de confianza en una situación que ha causado pavor durante décadas a los vegetarianos: pedir comida vegetariana cuando viajan al extranjero.";
+    "About_Dev" = "Desarrollado a medida para";
+    "About_by" = "por";
+    "About_Title_Themes" = "Temas";
+    "About_Title_Apps" = "Aplicaciones";
+    "About_Title_About" = "Sobre";
+    "About_Show_About" = "Mostrar Acerca de";
+    "About_Show_Stats" = "Mostrar Estadísticas";
+
+/* Help */
+    "Help_Vegetarian_verbiage" = "vegetarian";
+    "Help_Vegan_verbiage" = "vegan";
+    "Help_Title" = "Ayuda";
+    "Help_Overview_1" = "Aplicación general";
+    "Help_Overview_2" = "Aquí en \(appInfo.EDITION.Name) que estamos buscando para hacer una cosa y una cosa solamente, pero esperamos hacerlo muy bien.";
+    "Help_Overview_3" = "Estamos trabajando duro para ofrecer el viajero moderno \(verbiage) con una aplicación que se presta al menos un poco de confianza a una situación que se ha llenado un \(verbiage) con temor durante décadas - ordenamiento \(verbiage) alimentos mientras viajaba en un tierra extranjera.";
+    "Help_Overview_4" = "El \(verbiage) edición de \(appInfo.EDITION.Name) es un divertido y fácil manera de comunicar su \(verbiage) requisitos dietéticos para cualquier persona que conozcas en sus viajes - de personal del restaurante y del hotel recepcionistas de útil lugareños y recién amigos encontrados.";
+    "Help_Using_1" = "Utilizando \(appInfo.EDITION.Name)";
+    "Help_Using_2" = "Select una pregunta o declaración de los siete que se ofrecen, elegir uno de los 50 idiomas disponibles para la traducción, pulse el icono de traducir y que están lejos. Es así de simple.";
+    "Help_Using_3" = "Una vez que haya hecho su selección inicial, se encuentra la pantalla de su dispositivo girará automáticamente a la posición horizontal, lo que es fácil para usted para mostrar el texto de la pantalla de traducción a su espera con impaciencia camarero, cocinero, conserje o útiles local.";
+    "Help_Using_4" = "En la parte superior izquierda de la misma pantalla de traducción, encontrará un icono de día y de noche. Al tocar el icono que cambiar la pantalla actual del texto oscuro sobre un fondo claro de texto claro sobre un fondo oscuro y viceversa. Siéntase libre de experimentar en cuanto a qué opción se visualiza mejor en su entorno de iluminación actual.";
+    "Help_Using_5" = "También puede ajustar el brillo general de la pantalla de su dispositivo deslizando hacia arriba desde el centro del borde inferior de la pantalla.";
+    "Help_Using_6" = "Centrado en la parte superior de la pantalla de traducción son una serie de animación de imágenes de animales, que de nuevo visualmente el mensaje de texto traducido seleccionado. Al tocar cualquiera de estas imágenes muestra una versión más grande de esa imagen en particular. Usted tiene la posibilidad de continuación, desplazarse a través de estas imágenes más grandes deslizando la pantalla izquierda y derecha.";
+    "Help_Using_7" = "Al tocar el botón de cierre (x), regresará a la pantalla anterior.";
+    "Help_Languages_1" = "Idiomas";
+    "Help_Languages_2" = "Se puede visualizar fácilmente las preguntas o declaraciones seleccionadas en cualquiera de los 50 idiomas traducidos profesionalmente \(appInfo.EDITION.Name) ofrece.";
+    "Help_Languages_3" = "Sólo tiene que seleccionar un idioma de traducción haciendo clic en la bandera o el idioma que aparece en la parte inferior izquierda de la pantalla principal.";
+    "Help_Languages_4" = "Tenga en cuenta las banderas de las lenguas se relacionan con los países que más se representan, no necesariamente el destino que está visitando. Por ejemplo, el español se habla en México, pero la bandera se utiliza para representar el idioma español es la bandera española.";
+    "Help_Questions_1" = "Preguntas y declaraciones";
+    "Help_Questions_2" = "Una gran cantidad de pensamiento y de un montón de investigación - en la parte posterior de un par de décadas de algunos bastante extenso viaje - ha entrado en el desarrollo de \(appInfo.EDITION.Name) y, en particular, las preguntas y las declaraciones que han elegido para traducción.";
+    "Help_Questions_3" = "Esperamos sinceramente que tus rutas de viaje están llenos de cinco estrellas \(verbiage) comedor experiencias y mientras las cosas son sin duda en el mejorar, en general, para el viajero \(verbiage), todavía hay muchos países en los que \(verbiage) los alimentos sigue siendo un concepto casi extranjera.";
+    "Help_Questions_4" = "Nos damos cuenta de pizzerías y restaurantes indios están lejos de ser las únicas fuentes de buena \(verbiage) los alimentos disponibles en la carretera, pero una y otra vez que estamos atraídos por estos \(verbiage) grapas, especialmente cuando nuestras opciones son limitadas. Es por esa razón que obtienen su propia pregunta.";
+    "Help_Settings_1" = "Ajustes";
+    "Help_Settings_2" = "¿Por qué no darle vida a su experiencia \(appInfo.EDITION.Name) para que coincida con el sabor de su destino con uno de los muchos temas preestablecidos de colores que ofrecemos. Simplemente pulse el botón de configuración y seleccione un tema y listo, usted encontrará su fondo degradado actualiza al instante.";
+    "Help_Settings_3" = "Toque el botón de información (ℹ︎) para mostrar la versión actual de la \(appInfo.EDITION.Name) app \ y aprender un poco más acerca de nuestra empresa. O haga clic en nuestro logo para visitar nuestro sitio web donde puede mantenerse al día con lo que está pasando con \(appInfo.EDITION.Name), seguirnos en las redes sociales o enviar a través de sus pensamientos e ideas de cómo podemos mejorar las futuras versiones de nuestra aplicación.";
+    "Help_Help_1" = "Ayuda";
+    "Help_Help_2" = "El tamaño del texto que se muestra en esta pantalla se puede ajustar arrastrando el control deslizante de abajo a la izquierda y la derecha.";
+    "Help_Thanks_1" = "Gracias";
+    "Help_Thanks_2" = "Nos gustaría enviar un gran agradecimiento fibra lleno de los MacInnes Cat ridículamente talentosos (www.CatMacInnes.com) por sus encantadoras ilustraciones de animales y para Kevin y su maravilloso equipo en Creative App Solutions LLC (www.CreativeApps.us ) para mayores de entrega, antes de lo previsto y bajo presupuesto en la parte de desarrollo de iOS de las cosas.";
+    "Help_Thanks_3" = "Nuestras traducciones profesionales se manejaron con aplomo por el equipo de Translated.net.";
+    "Help_Conclusion_1" = "Esperamos que disfrute utilizando";
+    "Help_Conclusion_2" = "Visite nuestro sitio en \(appInfo.EDITION.Website_URL) o síganos en Twitter en \(appInfo.EDITION.Twitter_URL).";
+    "Help_Conclusion_3" = "Si has disfrutado utilizando nuestra aplicación, estaríamos muy agradecidos si usted podría tomar un minuto para darnos una buena calificación en el iTunes App Store.";
+
+/* Language */
+    "Language_Title" = "Idiomas";
+    "Language_Translate" = "para Traduzir";
+
+/* Main */
+
+/* Translation */
+
+/* LargeLogo */
+

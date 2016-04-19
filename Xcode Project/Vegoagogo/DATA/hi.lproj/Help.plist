@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Instructions</key>
+	<array>
+		<string>&lt;header_title_CR&gt;Welcome To</string>
+		<string>&lt;header_title&gt;veggoagogo™</string>
+		<string>&lt;header_body&gt;by 2Camels Publishing</string>
+		<string>&lt;header_body&gt;(Helsinki, Finland)</string>
+		<string>&lt;title&gt;</string>
+		<string>&lt;title&gt;App Overview</string>
+		<string>&lt;body&gt;Here at veggoagogo we&apos;re looking to do one thing and one thing alone, but we&apos;re hoping to do it very well indeed.</string>
+		<string>&lt;body&gt;We&apos;re working hard to provide the modern vegetarian traveller with an app that lends at least a little confidence to a situation that has filled vegetarians with dread for decades - ordering vegetarian food while traveling in a foreign land.</string>
+		<string>&lt;body&gt;The vegetarian edition of veggoagogo is a fun and easy way to communicate your vegetarian dietary requirements to anyone you meet on your travels - from restaurant staff and hotel receptionists to helpful locals and new-found friends.</string>
+		<string>&lt;title&gt;Using veggoagogo</string>
+		<string>&lt;body&gt;Select a question or statement from the seven on offer, choose one of the 50 languages available for translation, tap the translate icon and you&apos;re away. It&apos;s really that simple. </string>
+		<string>&lt;body&gt;Once you&apos;ve made your initial selection, you&apos;ll find the screen of your device will automatically rotate to the horizontal position, making it easy for you to display the translation screen text to your eagerly awaiting waiter, cook, concierge or helpful local. </string>
+		<string>&lt;body&gt;On the top left of that same translation screen, you&apos;ll find a day and night icon. Tapping the icon which will switch the current display from dark text on a light background to light text on a dark background and back again. Feel free to experiment as to which option displays best in your current lighting environment. </string>
+		<string>&lt;body&gt;You may also want to adjust the overall brightness of the display of your device by swiping upward from the centre bottom edge of your screen. </string>
+		<string>&lt;body&gt;Centred at the top of the translation screen are a series of animating animal images, that visually back up your selected translated text message. Tapping any of these images displays a larger version of that particular image. You have the ability to then scroll through these larger images by swiping your screen both left and right. </string>
+		<string>&lt;body&gt;Tapping the (x) close button will return you to the previous screen. </string>
+		<string>&lt;title&gt;Languages</string>
+		<string>&lt;body&gt;You can easily display selected questions or statements in any one of the 50 professionally translated languages veggoagogo offers.</string>
+		<string>&lt;body&gt;Simply select a translation language by clicking the flag or the language displayed in the bottom left of the main screen.</string>
+		<string>&lt;body&gt;Keep in mind the flags for the languages relate to the countries they most closely represent, not necessarily the destination you are visiting. For example, Spanish is spoken in Mexico but the flag used to represent the Spanish language is the Spanish flag. </string>
+		<string>&lt;title&gt;Questions and Statements</string>
+		<string>&lt;body&gt;A lot of thought and plenty of research — on the back of a couple of decades of some pretty extensive travelling — has gone into the development of veggoagago and in particular, the questions and statements we&apos;ve chosen for translation. </string>
+		<string>&lt;body&gt;We sincerely hope that your travel trails are littered with five-star vegetarian dining experiences and while things are definitely on the improve in general for the vegetarian traveller, there are still many countries where vegetarian food remains an almost foreign concept.</string>
+		<string>&lt;body&gt;We realise pizzerias and Indian restaurants are far from the only sources of good vegetarian food available on the road but time and time again we&apos;re drawn to these vegetarian staples, especially when our choices are limited. It&apos;s for that reason they get their very own question. </string>
+		<string>&lt;title&gt;Settings</string>
+		<string>&lt;body&gt;Why not spice up your veggoagogo experience to match the flavour of your destination with one of the many preset colour themes we offer. Simply tap the settings button and select a theme and voila, you&apos;ll find your background gradient instantly updates.</string>
+		<string>&lt;body&gt;Tap the (ℹ︎) info button to display the current version of the veggoagogo app and to learn a little more about our company. Or click on our logo to visit our website where you can keep up to date with what&apos;s happening at veggoagogo, follow us on social media or send through your thoughts and ideas for ways we can improve future versions of our app.</string>
+		<string>&lt;title&gt;Help</string>
+		<string>&lt;body&gt;The size of the text displayed on this screen can be adjusted by dragging the slider below to the left and right.</string>
+		<string>&lt;title&gt;Thanks</string>
+		<string>&lt;body&gt;We&apos;d like to send out a big fibre-packed thanks to the ridiculously-talented Cat MacInnes (CatMacInnes.com) for her delightful animal illustrations and to Kevin and his wonderful team at Creative App Solutions LLC (CreativeApps.us) for over-delivering, ahead of schedule and under budget on the iOS development side of things. 
+
+Our professional translations were handled with aplomb by the team at Translated.net.</string>
+		<string>&lt;body&gt;Bon voyage et bon appétit.
+
+Our professional translations were handled with aplomb by the team at Translated.net.</string>
+		<string>&lt;header_title_CR&gt;We hope you enjoy using</string>
+		<string>&lt;header_title&gt;veggoagogo!</string>
+		<string>&lt;body&gt;</string>
+		<string>&lt;body&gt;Visit our site at veggoagogo.com or follow us on Twitter at twitter.com/veggoagogo.</string>
+		<string>&lt;body&gt;If you&apos;ve enjoyed using our app, we&apos;d really appreciate it if you could take a minute to give us a good rating in the iTunes App Store.</string>
+		<string>&lt;body&gt;</string>
+		<string>&lt;body&gt;</string>
+	</array>
+</dict>
+</plist>

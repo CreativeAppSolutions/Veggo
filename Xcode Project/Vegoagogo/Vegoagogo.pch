@@ -1,0 +1,70 @@
+/*----------------------------------------------------------------
+     File: ExpenseLedger-Prefix.pch
+   Author: Kevin Messina - DVMagic Studios, Inc. USA
+ Modifier:
+  Created: April 8, 2014
+ 
+ ©2014 Vega, LLC. - All Rights Reserved.
+----------------------------------------------------------------*/
+
+#import <Availability.h>
+
+#pragma mark - *** IMPORTS ***
+#ifdef __OBJC__
+    @import UIKit;
+    @import Foundation;
+    @import MessageUI;
+    @import QuartzCore;
+    @import Fabric;
+    @import Crashlytics;
+    #import "Flurry.h" //Must be before app delegate
+    #import "AMSmoothAlertView.h" //Must be before app delegate
+    #import <DVM_SharedFunctions/DVM_SharedFunctions.h> //Must be before app delegate
+    #import "AppDelegate.h"
+#endif
+
+/* Define TEST MODE */
+#if DEBUG
+    #define kAppTestMode    YES
+#else
+    #define kAppTestMode    NO
+#endif
+
+/* Define Edition Constants */
+#define kVEG  0
+#define kVGN  1
+
+/* Define Edition Variables */
+#if defined(TARGET_VEG)
+        #define kAppID               @"VEG"
+        #define kAppIDNum            kVEG
+        #define kAppRevision         @"a"
+        #define kSupportedLanguages  @"en,fr,es,ru,ja,zh,pt,ar,hi,it"
+        #define kSupportedRegions    @"en-GB,fr-FR,es,ja,zh,pt,ar,hi,it"
+        #define kAppFullName         @"Veggoagogo"
+        #define kAppEdition          @"Vegetarian"
+        #define kCopyright_Year      @"2014-2015"
+        #define kFlurryTestIDNum     @"JTNBHCDZYVZP2TFS3VPH" //--- Flurry TEST ID ---
+        #define kFlurryProdIDNum     @"8V69XSY54XN3J8NVBB84" //--- Flurry LIVE ID ---
+        #define kAppleIDNum          @"934078560" //--- Appirator uses this as link to search in App Store ---
+        #define kWhatsNewFilename    @"WhatIsNew"
+        #define kHelpFilename        @"Help.plist"
+        #define kAppColor            kColorLicorice //TODO: Set App Color
+#elif defined(TARGET_VEGAN)
+        #define kAppID               @"VGN"
+        #define kAppIDNum            kVGN
+        #define kAppRevision         @"a"
+        #define kSupportedLanguages  @"en,fr,es,ru,ja,zh,pt,ar,hi,it"
+        #define kSupportedRegions    @"en-GB,fr-FR,es,ja,zh,pt,ar,hi,it"
+        #define kAppFullName         @"Veganagogo"
+        #define kAppEdition          @"Vegan"
+        #define kCopyright_Year      @"2015"
+        #define kFlurryTestIDNum     @"2SRM2MKKZGH33HGY8V3Q " //--- Flurry TEST ID ---
+        #define kFlurryProdIDNum     @"RYVC5FPN3QG7K8FFM3MR" //--- Flurry LIVE ID ---
+        #define kAppleIDNum          @"992542071" //TODO: --- Appirator uses this as link to search in App Store ---
+        #define kWhatsNewFilename    @"WhatIsNew_VGN"
+        #define kHelpFilename        @"Help_VGN.plist"
+        #define kAppColor            kColorLicorice //TODO: Set App Color
+#endif
+
+

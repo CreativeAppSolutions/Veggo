@@ -1,0 +1,1502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4099B581BB73BE8003AEC5E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A438E4FB1BB71757007AF059 /* libsqlite3.tbd */; };
+		A4099B591BB74588003AEC5E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A438E4FB1BB71757007AF059 /* libsqlite3.tbd */; };
+		A4099B5A1BB74595003AEC5E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A438E4FB1BB71757007AF059 /* libsqlite3.tbd */; };
+		A41115CC19D8E009000D8069 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41115CB19D8E009000D8069 /* MessageUI.framework */; };
+		A42991621B603D5000BE4071 /* cell_Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991601B603D5000BE4071 /* cell_Apps.swift */; };
+		A42991631B603D5000BE4071 /* cell_Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991601B603D5000BE4071 /* cell_Apps.swift */; };
+		A42991641B603D5000BE4071 /* cell_Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991601B603D5000BE4071 /* cell_Apps.swift */; };
+		A42991651B603D5000BE4071 /* cell_Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991601B603D5000BE4071 /* cell_Apps.swift */; };
+		A42991661B603D5000BE4071 /* cell_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991611B603D5000BE4071 /* cell_Links.swift */; };
+		A42991671B603D5000BE4071 /* cell_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991611B603D5000BE4071 /* cell_Links.swift */; };
+		A42991681B603D5000BE4071 /* cell_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991611B603D5000BE4071 /* cell_Links.swift */; };
+		A42991691B603D5000BE4071 /* cell_Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42991611B603D5000BE4071 /* cell_Links.swift */; };
+		A42BF9731A508B2800A0D368 /* VC_Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BF9721A508B2800A0D368 /* VC_Translation.m */; };
+		A42D53B71C55959100943F35 /* AMBouncingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A11C55959100943F35 /* AMBouncingView.m */; };
+		A42D53B81C55959100943F35 /* AMBouncingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A11C55959100943F35 /* AMBouncingView.m */; };
+		A42D53B91C55959100943F35 /* AMBouncingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A11C55959100943F35 /* AMBouncingView.m */; };
+		A42D53BA1C55959100943F35 /* AMBouncingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A11C55959100943F35 /* AMBouncingView.m */; };
+		A42D53BB1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */; };
+		A42D53BC1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */; };
+		A42D53BD1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */; };
+		A42D53BE1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */; };
+		A42D53BF1C55959100943F35 /* AMSmoothAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A51C55959100943F35 /* AMSmoothAlertView.m */; };
+		A42D53C01C55959100943F35 /* AMSmoothAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A51C55959100943F35 /* AMSmoothAlertView.m */; };
+		A42D53C11C55959100943F35 /* AMSmoothAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A51C55959100943F35 /* AMSmoothAlertView.m */; };
+		A42D53C21C55959100943F35 /* AMSmoothAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A42D53A51C55959100943F35 /* AMSmoothAlertView.m */; };
+		A42D53D31C55959100943F35 /* VC_WhatIsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */; };
+		A42D53D41C55959100943F35 /* VC_WhatIsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */; };
+		A42D53D51C55959100943F35 /* VC_WhatIsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */; };
+		A42D53D61C55959100943F35 /* VC_WhatIsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */; };
+		A42D53D71C55959100943F35 /* WhatsNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AD1C55959100943F35 /* WhatsNew.storyboard */; };
+		A42D53D81C55959100943F35 /* WhatsNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AD1C55959100943F35 /* WhatsNew.storyboard */; };
+		A42D53D91C55959100943F35 /* WhatsNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AD1C55959100943F35 /* WhatsNew.storyboard */; };
+		A42D53DA1C55959100943F35 /* WhatsNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AD1C55959100943F35 /* WhatsNew.storyboard */; };
+		A42D53DB1C55959100943F35 /* WhatsNew.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AE1C55959100943F35 /* WhatsNew.xcassets */; };
+		A42D53DC1C55959100943F35 /* WhatsNew.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AE1C55959100943F35 /* WhatsNew.xcassets */; };
+		A42D53DD1C55959100943F35 /* WhatsNew.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AE1C55959100943F35 /* WhatsNew.xcassets */; };
+		A42D53DE1C55959100943F35 /* WhatsNew.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D53AE1C55959100943F35 /* WhatsNew.xcassets */; };
+		A42D53E31C55959100943F35 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B01C55959100943F35 /* ClassExtensions.swift */; };
+		A42D53E41C55959100943F35 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B01C55959100943F35 /* ClassExtensions.swift */; };
+		A42D53E51C55959100943F35 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B01C55959100943F35 /* ClassExtensions.swift */; };
+		A42D53E61C55959100943F35 /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B01C55959100943F35 /* ClassExtensions.swift */; };
+		A42D53E71C55959100943F35 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B11C55959100943F35 /* Colors.swift */; };
+		A42D53E81C55959100943F35 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B11C55959100943F35 /* Colors.swift */; };
+		A42D53E91C55959100943F35 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B11C55959100943F35 /* Colors.swift */; };
+		A42D53EA1C55959100943F35 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B11C55959100943F35 /* Colors.swift */; };
+		A42D53EB1C55959100943F35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B21C55959100943F35 /* Constants.swift */; };
+		A42D53EC1C55959100943F35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B21C55959100943F35 /* Constants.swift */; };
+		A42D53ED1C55959100943F35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B21C55959100943F35 /* Constants.swift */; };
+		A42D53EE1C55959100943F35 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B21C55959100943F35 /* Constants.swift */; };
+		A42D53EF1C55959100943F35 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B31C55959100943F35 /* DeviceList.swift */; };
+		A42D53F01C55959100943F35 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B31C55959100943F35 /* DeviceList.swift */; };
+		A42D53F11C55959100943F35 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B31C55959100943F35 /* DeviceList.swift */; };
+		A42D53F21C55959100943F35 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B31C55959100943F35 /* DeviceList.swift */; };
+		A42D53F31C55959100943F35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B41C55959100943F35 /* Extensions.swift */; };
+		A42D53F41C55959100943F35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B41C55959100943F35 /* Extensions.swift */; };
+		A42D53F51C55959100943F35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B41C55959100943F35 /* Extensions.swift */; };
+		A42D53F61C55959100943F35 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B41C55959100943F35 /* Extensions.swift */; };
+		A42D53F71C55959100943F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B51C55959100943F35 /* Reachability.swift */; };
+		A42D53F81C55959100943F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B51C55959100943F35 /* Reachability.swift */; };
+		A42D53F91C55959100943F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B51C55959100943F35 /* Reachability.swift */; };
+		A42D53FA1C55959100943F35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B51C55959100943F35 /* Reachability.swift */; };
+		A42D53FB1C55959100943F35 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B61C55959100943F35 /* SharedFunctions.swift */; };
+		A42D53FC1C55959100943F35 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B61C55959100943F35 /* SharedFunctions.swift */; };
+		A42D53FD1C55959100943F35 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B61C55959100943F35 /* SharedFunctions.swift */; };
+		A42D53FE1C55959100943F35 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D53B61C55959100943F35 /* SharedFunctions.swift */; };
+		A438E4FC1BB71757007AF059 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A438E4FB1BB71757007AF059 /* libsqlite3.tbd */; };
+		A43B21681B726DAC0062C4E4 /* cell_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21661B726DAC0062C4E4 /* cell_About.swift */; };
+		A43B21691B726DAC0062C4E4 /* cell_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21661B726DAC0062C4E4 /* cell_About.swift */; };
+		A43B216A1B726DAC0062C4E4 /* cell_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21661B726DAC0062C4E4 /* cell_About.swift */; };
+		A43B216B1B726DAC0062C4E4 /* cell_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21661B726DAC0062C4E4 /* cell_About.swift */; };
+		A43B216C1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */; };
+		A43B216D1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */; };
+		A43B216E1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */; };
+		A43B216F1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */; };
+		A43C60DB1B32226E008C9994 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C60DA1B32226E008C9994 /* StoreKit.framework */; };
+		A43C60DC1B322292008C9994 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C60DA1B32226E008C9994 /* StoreKit.framework */; };
+		A45C818F19D2213F00A0C863 /* Cell_Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C818E19D2213F00A0C863 /* Cell_Questions.m */; };
+		A482F60F1B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */; };
+		A482F6101B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */; };
+		A482F6111B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */; };
+		A482F6121B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */; };
+		A482F6131B7007CE0019F1AA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A482F60E1B7007CE0019F1AA /* data.db */; };
+		A482F6141B7007CE0019F1AA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A482F60E1B7007CE0019F1AA /* data.db */; };
+		A482F6151B7007CE0019F1AA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A482F60E1B7007CE0019F1AA /* data.db */; };
+		A482F6161B7007CE0019F1AA /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A482F60E1B7007CE0019F1AA /* data.db */; };
+		A487C13B1B3C78F500C3C9DC /* Cell_Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */; };
+		A487C13C1B3C78F500C3C9DC /* Cell_Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */; };
+		A487C13D1B3C78F500C3C9DC /* Cell_Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */; };
+		A487C13E1B3C78F500C3C9DC /* Cell_Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */; };
+		A49AA1B019E0567300D00BE2 /* Cell_Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */; };
+		A4A2CCEE1B5EAA30001D1493 /* VC_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CCED1B5EAA30001D1493 /* VC_About.swift */; };
+		A4A2CCEF1B5EAA30001D1493 /* VC_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CCED1B5EAA30001D1493 /* VC_About.swift */; };
+		A4A2CCF01B5EAA30001D1493 /* VC_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CCED1B5EAA30001D1493 /* VC_About.swift */; };
+		A4A2CCF11B5EAA30001D1493 /* VC_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CCED1B5EAA30001D1493 /* VC_About.swift */; };
+		A4A2CD0A1B5EB76C001D1493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */; };
+		A4A2CD0B1B5EB76C001D1493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */; };
+		A4A2CD0C1B5EB76C001D1493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */; };
+		A4A2CD0D1B5EB76C001D1493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */; };
+		A4A2CD0E1B5EB76C001D1493 /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */; };
+		A4A2CD0F1B5EB76C001D1493 /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */; };
+		A4A2CD101B5EB76C001D1493 /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */; };
+		A4A2CD111B5EB76C001D1493 /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */; };
+		A4A2CD121B5EB76C001D1493 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD091B5EB76C001D1493 /* AppInfo.swift */; };
+		A4A2CD131B5EB76C001D1493 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD091B5EB76C001D1493 /* AppInfo.swift */; };
+		A4A2CD141B5EB76C001D1493 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD091B5EB76C001D1493 /* AppInfo.swift */; };
+		A4A2CD151B5EB76C001D1493 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD091B5EB76C001D1493 /* AppInfo.swift */; };
+		A4A2CD161B5ECF7A001D1493 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C60DA1B32226E008C9994 /* StoreKit.framework */; };
+		A4A2CD171B5ECF8D001D1493 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C60DA1B32226E008C9994 /* StoreKit.framework */; };
+		A4A2CD1F1B5EDED8001D1493 /* cell_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */; };
+		A4A2CD201B5EDED8001D1493 /* cell_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */; };
+		A4A2CD211B5EDED8001D1493 /* cell_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */; };
+		A4A2CD221B5EDED8001D1493 /* cell_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */; };
+		A4A2CD251B5EE44C001D1493 /* VC_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD241B5EE44C001D1493 /* VC_Main.m */; };
+		A4A2CD261B5EE44C001D1493 /* VC_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD241B5EE44C001D1493 /* VC_Main.m */; };
+		A4A2CD271B5EE44C001D1493 /* VC_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD241B5EE44C001D1493 /* VC_Main.m */; };
+		A4A2CD281B5EE44C001D1493 /* VC_Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD241B5EE44C001D1493 /* VC_Main.m */; };
+		A4A2CD2A1B5F2476001D1493 /* VC_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD291B5F2476001D1493 /* VC_Help.swift */; };
+		A4A2CD2B1B5F2476001D1493 /* VC_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD291B5F2476001D1493 /* VC_Help.swift */; };
+		A4A2CD2C1B5F2476001D1493 /* VC_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD291B5F2476001D1493 /* VC_Help.swift */; };
+		A4A2CD2D1B5F2476001D1493 /* VC_Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A2CD291B5F2476001D1493 /* VC_Help.swift */; };
+		A4B5F9A419CDAE1200CDCFC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A319CDAE1200CDCFC3 /* main.m */; };
+		A4B5F9A719CDAE1200CDCFC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */; };
+		A4B5F9AF19CDAE1200CDCFC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */; };
+		A4B5F9CA19CDCA6300CDCFC3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */; };
+		A4B5F9CC19CDCA6C00CDCFC3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */; };
+		A4B5F9CE19CDCA7800CDCFC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */; };
+		A4B5F9D019CDCA8000CDCFC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */; };
+		A4B5F9D219CDCA9000CDCFC3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */; };
+		A4B5F9D419CDCA9C00CDCFC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */; };
+		A4B5FA5E19CE55A800CDCFC3 /* VC_Languages.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */; };
+		A4B634EB19F431B4003E9683 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B634EA19F431B4003E9683 /* iCarousel.m */; };
+		A4BC7C8A19CF6C7300314E69 /* Cell_Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */; };
+		A4BEFF721BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */; };
+		A4BEFF731BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */; };
+		A4BEFF741BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */; };
+		A4BEFF751BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */; };
+		A4BEFF771BBDACAC002F4830 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF761BBDACAC002F4830 /* Fabric.framework */; };
+		A4BEFF781BBDACAC002F4830 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF761BBDACAC002F4830 /* Fabric.framework */; };
+		A4BEFF791BBDACAC002F4830 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF761BBDACAC002F4830 /* Fabric.framework */; };
+		A4BEFF7A1BBDACAC002F4830 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BEFF761BBDACAC002F4830 /* Fabric.framework */; };
+		A4C774171AF6850900D5485A /* VC_Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BF9721A508B2800A0D368 /* VC_Translation.m */; };
+		A4C774181AF6850900D5485A /* Cell_Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C818E19D2213F00A0C863 /* Cell_Questions.m */; };
+		A4C7741B1AF6850900D5485A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */; };
+		A4C7741E1AF6850900D5485A /* Cell_Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */; };
+		A4C774201AF6850900D5485A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A319CDAE1200CDCFC3 /* main.m */; };
+		A4C774211AF6850900D5485A /* VC_Languages.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */; };
+		A4C774221AF6850900D5485A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B634EA19F431B4003E9683 /* iCarousel.m */; };
+		A4C774241AF6850900D5485A /* Cell_Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */; };
+		A4C774261AF6850900D5485A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41115CB19D8E009000D8069 /* MessageUI.framework */; };
+		A4C774281AF6850900D5485A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */; };
+		A4C774291AF6850900D5485A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */; };
+		A4C7742C1AF6850900D5485A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */; };
+		A4C7742D1AF6850900D5485A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */; };
+		A4C7742F1AF6850900D5485A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */; };
+		A4C774311AF6850900D5485A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */; };
+		A4C774321AF6850900D5485A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */; };
+		A4C774331AF6850900D5485A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */; };
+		A4C774351AF6850900D5485A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */; };
+		A4C7743A1AF6850900D5485A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */; };
+		A4C774401AF6850900D5485A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */; };
+		A4C774411AF6850900D5485A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAF91A06C903004B626D /* LaunchScreen.xib */; };
+		A4C774501AF687E300D5485A /* LaunchScreen_Vegan.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C7744F1AF687E300D5485A /* LaunchScreen_Vegan.xib */; };
+		A4C774511AF687E300D5485A /* LaunchScreen_Vegan.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4C7744F1AF687E300D5485A /* LaunchScreen_Vegan.xib */; };
+		A4C774531AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */; };
+		A4C774541AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */; };
+		A4C774551AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */; };
+		A4C774561AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */; };
+		A4E0FAFB1A06C903004B626D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAF91A06C903004B626D /* LaunchScreen.xib */; };
+		A4E0FAFC1A06C903004B626D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */; };
+		A4E48B011AF298EF00EF5306 /* VC_Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BF9721A508B2800A0D368 /* VC_Translation.m */; };
+		A4E48B021AF298EF00EF5306 /* Cell_Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C818E19D2213F00A0C863 /* Cell_Questions.m */; };
+		A4E48B051AF298EF00EF5306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */; };
+		A4E48B081AF298EF00EF5306 /* Cell_Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */; };
+		A4E48B0A1AF298EF00EF5306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A319CDAE1200CDCFC3 /* main.m */; };
+		A4E48B0B1AF298EF00EF5306 /* VC_Languages.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */; };
+		A4E48B0C1AF298EF00EF5306 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B634EA19F431B4003E9683 /* iCarousel.m */; };
+		A4E48B0E1AF298EF00EF5306 /* Cell_Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */; };
+		A4E48B101AF298EF00EF5306 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41115CB19D8E009000D8069 /* MessageUI.framework */; };
+		A4E48B121AF298EF00EF5306 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */; };
+		A4E48B131AF298EF00EF5306 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */; };
+		A4E48B161AF298EF00EF5306 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */; };
+		A4E48B171AF298EF00EF5306 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */; };
+		A4E48B191AF298EF00EF5306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */; };
+		A4E48B1B1AF298EF00EF5306 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */; };
+		A4E48B1C1AF298EF00EF5306 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */; };
+		A4E48B1D1AF298EF00EF5306 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */; };
+		A4E48B1F1AF298EF00EF5306 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */; };
+		A4E48B241AF298EF00EF5306 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */; };
+		A4E48B2A1AF298EF00EF5306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */; };
+		A4E48B2B1AF298EF00EF5306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAF91A06C903004B626D /* LaunchScreen.xib */; };
+		A4E48B3A1AF2994300EF5306 /* VC_Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = A42BF9721A508B2800A0D368 /* VC_Translation.m */; };
+		A4E48B3B1AF2994300EF5306 /* Cell_Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C818E19D2213F00A0C863 /* Cell_Questions.m */; };
+		A4E48B3E1AF2994300EF5306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */; };
+		A4E48B411AF2994300EF5306 /* Cell_Themes.m in Sources */ = {isa = PBXBuildFile; fileRef = A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */; };
+		A4E48B431AF2994300EF5306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5F9A319CDAE1200CDCFC3 /* main.m */; };
+		A4E48B441AF2994300EF5306 /* VC_Languages.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */; };
+		A4E48B451AF2994300EF5306 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B634EA19F431B4003E9683 /* iCarousel.m */; };
+		A4E48B471AF2994300EF5306 /* Cell_Countries.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */; };
+		A4E48B491AF2994300EF5306 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41115CB19D8E009000D8069 /* MessageUI.framework */; };
+		A4E48B4B1AF2994300EF5306 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */; };
+		A4E48B4C1AF2994300EF5306 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */; };
+		A4E48B4F1AF2994300EF5306 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */; };
+		A4E48B501AF2994300EF5306 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */; };
+		A4E48B521AF2994300EF5306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */; };
+		A4E48B541AF2994300EF5306 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */; };
+		A4E48B551AF2994300EF5306 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */; };
+		A4E48B561AF2994300EF5306 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */; };
+		A4E48B581AF2994300EF5306 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */; };
+		A4E48B5D1AF2994300EF5306 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */; };
+		A4E48B631AF2994300EF5306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */; };
+		A4E48B641AF2994300EF5306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4E0FAF91A06C903004B626D /* LaunchScreen.xib */; };
+		A4E93E9019D3368800EC5D8C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */; };
+		A4E93E9519D3ABFF00EC5D8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */; };
+		A4F6D68C1A06CAF800BCBBCC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A41115CB19D8E009000D8069 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A42991601B603D5000BE4071 /* cell_Apps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_Apps.swift; path = CELLS/cell_Apps.swift; sourceTree = "<group>"; };
+		A42991611B603D5000BE4071 /* cell_Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_Links.swift; path = CELLS/cell_Links.swift; sourceTree = "<group>"; };
+		A42BF9711A508B2800A0D368 /* VC_Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Translation.h; sourceTree = "<group>"; };
+		A42BF9721A508B2800A0D368 /* VC_Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Translation.m; sourceTree = "<group>"; };
+		A42D53A01C55959100943F35 /* AMBouncingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBouncingView.h; sourceTree = "<group>"; };
+		A42D53A11C55959100943F35 /* AMBouncingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBouncingView.m; sourceTree = "<group>"; };
+		A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AMSmoothAlert.xcassets; sourceTree = "<group>"; };
+		A42D53A31C55959100943F35 /* AMSmoothAlertConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSmoothAlertConstants.h; sourceTree = "<group>"; };
+		A42D53A41C55959100943F35 /* AMSmoothAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSmoothAlertView.h; sourceTree = "<group>"; };
+		A42D53A51C55959100943F35 /* AMSmoothAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSmoothAlertView.m; sourceTree = "<group>"; };
+		A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC_WhatIsNew.swift; sourceTree = "<group>"; };
+		A42D53AD1C55959100943F35 /* WhatsNew.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WhatsNew.storyboard; sourceTree = "<group>"; };
+		A42D53AE1C55959100943F35 /* WhatsNew.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WhatsNew.xcassets; sourceTree = "<group>"; };
+		A42D53B01C55959100943F35 /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		A42D53B11C55959100943F35 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A42D53B21C55959100943F35 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A42D53B31C55959100943F35 /* DeviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		A42D53B41C55959100943F35 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A42D53B51C55959100943F35 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		A42D53B61C55959100943F35 /* SharedFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedFunctions.swift; sourceTree = "<group>"; };
+		A438E4FB1BB71757007AF059 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A43B21661B726DAC0062C4E4 /* cell_About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_About.swift; path = CELLS/cell_About.swift; sourceTree = "<group>"; };
+		A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_AboutHeader.swift; path = CELLS/cell_AboutHeader.swift; sourceTree = "<group>"; };
+		A43C60DA1B32226E008C9994 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A45C818D19D2213F00A0C863 /* Cell_Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Questions.h; sourceTree = "<group>"; };
+		A45C818E19D2213F00A0C863 /* Cell_Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Questions.m; sourceTree = "<group>"; };
+		A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = App_Changes_Log.rtf; path = Vegoagogo/DATA/App_Changes_Log.rtf; sourceTree = SOURCE_ROOT; };
+		A482F60E1B7007CE0019F1AA /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = data.db; path = Vegoagogo/DATA/data.db; sourceTree = SOURCE_ROOT; };
+		A487C1391B3C78F500C3C9DC /* Cell_Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Animals.h; sourceTree = "<group>"; };
+		A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Animals.m; sourceTree = "<group>"; };
+		A49AA1AE19E0567300D00BE2 /* Cell_Themes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Themes.h; sourceTree = "<group>"; };
+		A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Themes.m; sourceTree = "<group>"; };
+		A4A2CCED1B5EAA30001D1493 /* VC_About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VC_About.swift; path = CLASSES/VC_About.swift; sourceTree = "<group>"; };
+		A4A2CCF21B5EAAAB001D1493 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CLASSES/AppDelegate.swift; sourceTree = "<group>"; };
+		A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFunctions.swift; path = CLASSES/AppFunctions.swift; sourceTree = "<group>"; };
+		A4A2CD091B5EB76C001D1493 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppInfo.swift; path = CLASSES/AppInfo.swift; sourceTree = "<group>"; };
+		A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cell_Color.swift; path = CELLS/cell_Color.swift; sourceTree = "<group>"; };
+		A4A2CD231B5EE44C001D1493 /* VC_Main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Main.h; sourceTree = "<group>"; };
+		A4A2CD241B5EE44C001D1493 /* VC_Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Main.m; sourceTree = "<group>"; };
+		A4A2CD291B5F2476001D1493 /* VC_Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VC_Help.swift; path = CLASSES/VC_Help.swift; sourceTree = "<group>"; };
+		A4A6FCF21A51D37E00767D73 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		A4B5F99E19CDAE1200CDCFC3 /* Veggoagogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veggoagogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B5F9A319CDAE1200CDCFC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4B5F9A519CDAE1200CDCFC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4B5FA1F19CDD1B600CDCFC3 /* Vegoagogo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegoagogo.pch; sourceTree = "<group>"; };
+		A4B5FA5A19CE55A800CDCFC3 /* VC_Languages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Languages.h; sourceTree = "<group>"; };
+		A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Languages.m; sourceTree = "<group>"; };
+		A4B634E919F431B4003E9683 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A4B634EA19F431B4003E9683 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A4BC7C8819CF6C7300314E69 /* Cell_Countries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Countries.h; sourceTree = "<group>"; };
+		A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Countries.m; sourceTree = "<group>"; };
+		A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVM_SharedFunctions.framework; sourceTree = "<group>"; };
+		A4BEFF761BBDACAC002F4830 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		A4C7744A1AF6850900D5485A /* Veggoagogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veggoagogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C7744B1AF6858A00D5485A /* Veganagogo (AppStore)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Veganagogo (AppStore)-Info.plist"; sourceTree = "<group>"; };
+		A4C7744C1AF6858A00D5485A /* Veganagogo (Beta)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Veganagogo (Beta)-Info.plist"; sourceTree = "<group>"; };
+		A4C7744D1AF6858A00D5485A /* Veggoagogo (AppStore)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Veggoagogo (AppStore)-Info.plist"; sourceTree = "<group>"; };
+		A4C7744E1AF6858A00D5485A /* Veggoagogo (Beta)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Veggoagogo (Beta)-Info.plist"; sourceTree = "<group>"; };
+		A4C7744F1AF687E300D5485A /* LaunchScreen_Vegan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_Vegan.xib; sourceTree = "<group>"; };
+		A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.3.0.a; sourceTree = "<group>"; };
+		A4E0FAF91A06C903004B626D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A4E48B341AF298EF00EF5306 /* Veganagogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veganagogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E48B6D1AF2994300EF5306 /* Veganagogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veganagogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4F6D68D1A06CAF800BCBBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D68F1A06CB7300BCBBCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6901A06CFF200BCBBCC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A4F6D6911A06CFFA00BCBBCC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6921A06D00200BCBBCC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6931A06D00800BCBBCC /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6941A06D01200BCBBCC /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6951A06D01800BCBBCC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6961A06D02200BCBBCC /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6971A06D03A00BCBBCC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4F6D6981A06D04C00BCBBCC /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B5F99B19CDAE1200CDCFC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438E4FC1BB71757007AF059 /* libsqlite3.tbd in Frameworks */,
+				A41115CC19D8E009000D8069 /* MessageUI.framework in Frameworks */,
+				A43C60DB1B32226E008C9994 /* StoreKit.framework in Frameworks */,
+				A4E93E9519D3ABFF00EC5D8C /* AVFoundation.framework in Frameworks */,
+				A4C774531AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */,
+				A4E93E9019D3368800EC5D8C /* Crashlytics.framework in Frameworks */,
+				A4B5F9CA19CDCA6300CDCFC3 /* Accelerate.framework in Frameworks */,
+				A4BEFF771BBDACAC002F4830 /* Fabric.framework in Frameworks */,
+				A4B5F9D419CDCA9C00CDCFC3 /* CoreGraphics.framework in Frameworks */,
+				A4B5F9CE19CDCA7800CDCFC3 /* Foundation.framework in Frameworks */,
+				A4BEFF721BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */,
+				A4B5F9CC19CDCA6C00CDCFC3 /* QuartzCore.framework in Frameworks */,
+				A4B5F9D219CDCA9000CDCFC3 /* SystemConfiguration.framework in Frameworks */,
+				A4B5F9D019CDCA8000CDCFC3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C774251AF6850900D5485A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4099B581BB73BE8003AEC5E /* libsqlite3.tbd in Frameworks */,
+				A4A2CD161B5ECF7A001D1493 /* StoreKit.framework in Frameworks */,
+				A4C774261AF6850900D5485A /* MessageUI.framework in Frameworks */,
+				A4C774281AF6850900D5485A /* AVFoundation.framework in Frameworks */,
+				A4C774541AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */,
+				A4C774291AF6850900D5485A /* Crashlytics.framework in Frameworks */,
+				A4C7742C1AF6850900D5485A /* Accelerate.framework in Frameworks */,
+				A4BEFF781BBDACAC002F4830 /* Fabric.framework in Frameworks */,
+				A4C7742D1AF6850900D5485A /* CoreGraphics.framework in Frameworks */,
+				A4BEFF731BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */,
+				A4C7742F1AF6850900D5485A /* Foundation.framework in Frameworks */,
+				A4C774311AF6850900D5485A /* QuartzCore.framework in Frameworks */,
+				A4C774321AF6850900D5485A /* SystemConfiguration.framework in Frameworks */,
+				A4C774331AF6850900D5485A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48B0F1AF298EF00EF5306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4099B591BB74588003AEC5E /* libsqlite3.tbd in Frameworks */,
+				A43C60DC1B322292008C9994 /* StoreKit.framework in Frameworks */,
+				A4E48B101AF298EF00EF5306 /* MessageUI.framework in Frameworks */,
+				A4E48B121AF298EF00EF5306 /* AVFoundation.framework in Frameworks */,
+				A4C774551AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */,
+				A4E48B131AF298EF00EF5306 /* Crashlytics.framework in Frameworks */,
+				A4E48B161AF298EF00EF5306 /* Accelerate.framework in Frameworks */,
+				A4BEFF791BBDACAC002F4830 /* Fabric.framework in Frameworks */,
+				A4E48B171AF298EF00EF5306 /* CoreGraphics.framework in Frameworks */,
+				A4E48B191AF298EF00EF5306 /* Foundation.framework in Frameworks */,
+				A4BEFF741BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */,
+				A4E48B1B1AF298EF00EF5306 /* QuartzCore.framework in Frameworks */,
+				A4E48B1C1AF298EF00EF5306 /* SystemConfiguration.framework in Frameworks */,
+				A4E48B1D1AF298EF00EF5306 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48B481AF2994300EF5306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4099B5A1BB74595003AEC5E /* libsqlite3.tbd in Frameworks */,
+				A4A2CD171B5ECF8D001D1493 /* StoreKit.framework in Frameworks */,
+				A4E48B491AF2994300EF5306 /* MessageUI.framework in Frameworks */,
+				A4E48B4B1AF2994300EF5306 /* AVFoundation.framework in Frameworks */,
+				A4C774561AF6F18100D5485A /* libFlurry_6.3.0.a in Frameworks */,
+				A4E48B4C1AF2994300EF5306 /* Crashlytics.framework in Frameworks */,
+				A4E48B4F1AF2994300EF5306 /* Accelerate.framework in Frameworks */,
+				A4BEFF7A1BBDACAC002F4830 /* Fabric.framework in Frameworks */,
+				A4E48B501AF2994300EF5306 /* CoreGraphics.framework in Frameworks */,
+				A4BEFF751BBDAADF002F4830 /* DVM_SharedFunctions.framework in Frameworks */,
+				A4E48B521AF2994300EF5306 /* Foundation.framework in Frameworks */,
+				A4E48B541AF2994300EF5306 /* QuartzCore.framework in Frameworks */,
+				A4E48B551AF2994300EF5306 /* SystemConfiguration.framework in Frameworks */,
+				A4E48B561AF2994300EF5306 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42D539E1C55959100943F35 /* CAS_LIBRARIES */ = {
+			isa = PBXGroup;
+			children = (
+				A42D539F1C55959100943F35 /* AMSmoothAlert */,
+				A42D53AB1C55959100943F35 /* CAS_WhatsNew */,
+				A42D53B01C55959100943F35 /* ClassExtensions.swift */,
+				A42D53B11C55959100943F35 /* Colors.swift */,
+				A42D53B21C55959100943F35 /* Constants.swift */,
+				A42D53B31C55959100943F35 /* DeviceList.swift */,
+				A42D53B41C55959100943F35 /* Extensions.swift */,
+				A42D53B51C55959100943F35 /* Reachability.swift */,
+				A42D53B61C55959100943F35 /* SharedFunctions.swift */,
+			);
+			name = CAS_LIBRARIES;
+			path = ../../../../../../Frameworks/CAS_LIBRARIES;
+			sourceTree = "<group>";
+		};
+		A42D539F1C55959100943F35 /* AMSmoothAlert */ = {
+			isa = PBXGroup;
+			children = (
+				A42D53A01C55959100943F35 /* AMBouncingView.h */,
+				A42D53A11C55959100943F35 /* AMBouncingView.m */,
+				A42D53A21C55959100943F35 /* AMSmoothAlert.xcassets */,
+				A42D53A31C55959100943F35 /* AMSmoothAlertConstants.h */,
+				A42D53A41C55959100943F35 /* AMSmoothAlertView.h */,
+				A42D53A51C55959100943F35 /* AMSmoothAlertView.m */,
+			);
+			path = AMSmoothAlert;
+			sourceTree = "<group>";
+		};
+		A42D53AB1C55959100943F35 /* CAS_WhatsNew */ = {
+			isa = PBXGroup;
+			children = (
+				A42D53AC1C55959100943F35 /* VC_WhatIsNew.swift */,
+				A42D53AD1C55959100943F35 /* WhatsNew.storyboard */,
+				A42D53AE1C55959100943F35 /* WhatsNew.xcassets */,
+			);
+			path = CAS_WhatsNew;
+			sourceTree = "<group>";
+		};
+		A43E820819F6E938008223CC /* CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				A4BC7C8B19CF711700314E69 /* Cells */,
+				A4A2CD071B5EB76C001D1493 /* AppDelegate.swift */,
+				A4A2CD081B5EB76C001D1493 /* AppFunctions.swift */,
+				A4A2CD091B5EB76C001D1493 /* AppInfo.swift */,
+				A4A2CCED1B5EAA30001D1493 /* VC_About.swift */,
+				A4A2CD291B5F2476001D1493 /* VC_Help.swift */,
+				A4B5F9A519CDAE1200CDCFC3 /* AppDelegate.h */,
+				A4B5F9A619CDAE1200CDCFC3 /* AppDelegate.m */,
+				A4B5FA5A19CE55A800CDCFC3 /* VC_Languages.h */,
+				A4B5FA5B19CE55A800CDCFC3 /* VC_Languages.m */,
+				A4A2CD231B5EE44C001D1493 /* VC_Main.h */,
+				A4A2CD241B5EE44C001D1493 /* VC_Main.m */,
+				A42BF9711A508B2800A0D368 /* VC_Translation.h */,
+				A42BF9721A508B2800A0D368 /* VC_Translation.m */,
+			);
+			name = CLASSES;
+			sourceTree = "<group>";
+		};
+		A4B5F99519CDAE1200CDCFC3 = {
+			isa = PBXGroup;
+			children = (
+				A4B5F9A019CDAE1200CDCFC3 /* Vegoagogo */,
+				A4B5F9D519CDCB6900CDCFC3 /* Frameworks */,
+				A4B5F99F19CDAE1200CDCFC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B5F99F19CDAE1200CDCFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5F99E19CDAE1200CDCFC3 /* Veggoagogo.app */,
+				A4E48B341AF298EF00EF5306 /* Veganagogo.app */,
+				A4E48B6D1AF2994300EF5306 /* Veganagogo.app */,
+				A4C7744A1AF6850900D5485A /* Veggoagogo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B5F9A019CDAE1200CDCFC3 /* Vegoagogo */ = {
+			isa = PBXGroup;
+			children = (
+				A42D539E1C55959100943F35 /* CAS_LIBRARIES */,
+				A4B5F9D619CDCB8B00CDCFC3 /* SHARED */,
+				A4B5FA4B19CE085500CDCFC3 /* DATA */,
+				A43E820819F6E938008223CC /* CLASSES */,
+				A4BC7C8C19CF712700314E69 /* Storyboards & Images */,
+				A4B5F9A119CDAE1200CDCFC3 /* Supporting Files */,
+			);
+			path = Vegoagogo;
+			sourceTree = "<group>";
+		};
+		A4B5F9A119CDAE1200CDCFC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5FA1F19CDD1B600CDCFC3 /* Vegoagogo.pch */,
+				A4A2CCF21B5EAAAB001D1493 /* Bridging-Header.h */,
+				A4C7744B1AF6858A00D5485A /* Veganagogo (AppStore)-Info.plist */,
+				A4C7744C1AF6858A00D5485A /* Veganagogo (Beta)-Info.plist */,
+				A4C7744D1AF6858A00D5485A /* Veggoagogo (AppStore)-Info.plist */,
+				A4C7744E1AF6858A00D5485A /* Veggoagogo (Beta)-Info.plist */,
+				A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */,
+				A4B5F9A319CDAE1200CDCFC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4B5F9D519CDCB6900CDCFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BEFF711BBDAADF002F4830 /* DVM_SharedFunctions.framework */,
+				A438E4FB1BB71757007AF059 /* libsqlite3.tbd */,
+				A43C60DA1B32226E008C9994 /* StoreKit.framework */,
+				A41115CB19D8E009000D8069 /* MessageUI.framework */,
+				A4E93E9419D3ABFF00EC5D8C /* AVFoundation.framework */,
+				A4E93E8F19D3368800EC5D8C /* Crashlytics.framework */,
+				A4BEFF761BBDACAC002F4830 /* Fabric.framework */,
+				A4B5F9D319CDCA9C00CDCFC3 /* CoreGraphics.framework */,
+				A4B5F9D119CDCA9000CDCFC3 /* SystemConfiguration.framework */,
+				A4B5F9CF19CDCA8000CDCFC3 /* UIKit.framework */,
+				A4B5F9CD19CDCA7800CDCFC3 /* Foundation.framework */,
+				A4B5F9CB19CDCA6C00CDCFC3 /* QuartzCore.framework */,
+				A4B5F9C919CDCA6300CDCFC3 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B5F9D619CDCB8B00CDCFC3 /* SHARED */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5F9F019CDCB8B00CDCFC3 /* Flurry */,
+				A4B634E819F431B4003E9683 /* iCarousel */,
+			);
+			path = SHARED;
+			sourceTree = "<group>";
+		};
+		A4B5F9F019CDCB8B00CDCFC3 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				A4A6FCF21A51D37E00767D73 /* Flurry.h */,
+				A4C774521AF6F18100D5485A /* libFlurry_6.3.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		A4B5FA4B19CE085500CDCFC3 /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				A482F60D1B7007CE0019F1AA /* App_Changes_Log.rtf */,
+				A482F60E1B7007CE0019F1AA /* data.db */,
+			);
+			name = DATA;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A4B634E819F431B4003E9683 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				A4B634E919F431B4003E9683 /* iCarousel.h */,
+				A4B634EA19F431B4003E9683 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		A4BC7C8B19CF711700314E69 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A43B21661B726DAC0062C4E4 /* cell_About.swift */,
+				A43B21671B726DAC0062C4E4 /* cell_AboutHeader.swift */,
+				A42991601B603D5000BE4071 /* cell_Apps.swift */,
+				A4A2CD1E1B5EDED8001D1493 /* cell_Color.swift */,
+				A42991611B603D5000BE4071 /* cell_Links.swift */,
+				A487C1391B3C78F500C3C9DC /* Cell_Animals.h */,
+				A487C13A1B3C78F500C3C9DC /* Cell_Animals.m */,
+				A4BC7C8819CF6C7300314E69 /* Cell_Countries.h */,
+				A4BC7C8919CF6C7300314E69 /* Cell_Countries.m */,
+				A45C818D19D2213F00A0C863 /* Cell_Questions.h */,
+				A45C818E19D2213F00A0C863 /* Cell_Questions.m */,
+				A49AA1AE19E0567300D00BE2 /* Cell_Themes.h */,
+				A49AA1AF19E0567300D00BE2 /* Cell_Themes.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A4BC7C8C19CF712700314E69 /* Storyboards & Images */ = {
+			isa = PBXGroup;
+			children = (
+				A4B5F9AE19CDAE1200CDCFC3 /* Images.xcassets */,
+				A4C7744F1AF687E300D5485A /* LaunchScreen_Vegan.xib */,
+				A4E0FAF91A06C903004B626D /* LaunchScreen.xib */,
+				A4E0FAFA1A06C903004B626D /* Main_iPhone.storyboard */,
+			);
+			name = "Storyboards & Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B5F99D19CDAE1200CDCFC3 /* Veggoagogo_Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B5F9C119CDAE1200CDCFC3 /* Build configuration list for PBXNativeTarget "Veggoagogo_Beta" */;
+			buildPhases = (
+				A4B5F99A19CDAE1200CDCFC3 /* Sources */,
+				A4B5F99B19CDAE1200CDCFC3 /* Frameworks */,
+				A4B5F99C19CDAE1200CDCFC3 /* Resources */,
+				A4E93E8E19D3365300EC5D8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veggoagogo_Beta;
+			productName = Vegoagogo;
+			productReference = A4B5F99E19CDAE1200CDCFC3 /* Veggoagogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4C774131AF6850900D5485A /* Veggoagogo_AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C774471AF6850900D5485A /* Build configuration list for PBXNativeTarget "Veggoagogo_AppStore" */;
+			buildPhases = (
+				A4C774141AF6850900D5485A /* Sources */,
+				A4C774251AF6850900D5485A /* Frameworks */,
+				A4C774341AF6850900D5485A /* Resources */,
+				A4C774461AF6850900D5485A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veggoagogo_AppStore;
+			productName = Vegoagogo;
+			productReference = A4C7744A1AF6850900D5485A /* Veggoagogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E48AFD1AF298EF00EF5306 /* Veganagogo_Beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E48B311AF298EF00EF5306 /* Build configuration list for PBXNativeTarget "Veganagogo_Beta" */;
+			buildPhases = (
+				A4E48AFE1AF298EF00EF5306 /* Sources */,
+				A4E48B0F1AF298EF00EF5306 /* Frameworks */,
+				A4E48B1E1AF298EF00EF5306 /* Resources */,
+				A4E48B301AF298EF00EF5306 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veganagogo_Beta;
+			productName = Vegoagogo;
+			productReference = A4E48B341AF298EF00EF5306 /* Veganagogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E48B361AF2994300EF5306 /* Veganagogo_AppStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E48B6A1AF2994300EF5306 /* Build configuration list for PBXNativeTarget "Veganagogo_AppStore" */;
+			buildPhases = (
+				A4E48B371AF2994300EF5306 /* Sources */,
+				A4E48B481AF2994300EF5306 /* Frameworks */,
+				A4E48B571AF2994300EF5306 /* Resources */,
+				A4E48B691AF2994300EF5306 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veganagogo_AppStore;
+			productName = Vegoagogo;
+			productReference = A4E48B6D1AF2994300EF5306 /* Veganagogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B5F99619CDAE1200CDCFC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "DVMagic Studios, Inc.";
+				TargetAttributes = {
+					A4B5F99D19CDAE1200CDCFC3 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 9UBC98R58W;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					A4C774131AF6850900D5485A = {
+						DevelopmentTeam = 235YVH73KV;
+					};
+					A4E48AFD1AF298EF00EF5306 = {
+						DevelopmentTeam = 9UBC98R58W;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					A4E48B361AF2994300EF5306 = {
+						DevelopmentTeam = 235YVH73KV;
+					};
+				};
+			};
+			buildConfigurationList = A4B5F99919CDAE1200CDCFC3 /* Build configuration list for PBXProject "Vegoagogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+				ja,
+				es,
+				pt,
+				it,
+				ru,
+				ar,
+				fr,
+				hi,
+			);
+			mainGroup = A4B5F99519CDAE1200CDCFC3;
+			productRefGroup = A4B5F99F19CDAE1200CDCFC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B5F99D19CDAE1200CDCFC3 /* Veggoagogo_Beta */,
+				A4C774131AF6850900D5485A /* Veggoagogo_AppStore */,
+				A4E48AFD1AF298EF00EF5306 /* Veganagogo_Beta */,
+				A4E48B361AF2994300EF5306 /* Veganagogo_AppStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B5F99C19CDAE1200CDCFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F6D68C1A06CAF800BCBBCC /* Localizable.strings in Resources */,
+				A482F6131B7007CE0019F1AA /* data.db in Resources */,
+				A4E0FAFC1A06C903004B626D /* Main_iPhone.storyboard in Resources */,
+				A42D53BB1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */,
+				A482F60F1B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */,
+				A4B5F9AF19CDAE1200CDCFC3 /* Images.xcassets in Resources */,
+				A4E0FAFB1A06C903004B626D /* LaunchScreen.xib in Resources */,
+				A42D53DB1C55959100943F35 /* WhatsNew.xcassets in Resources */,
+				A42D53D71C55959100943F35 /* WhatsNew.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C774341AF6850900D5485A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C774351AF6850900D5485A /* Localizable.strings in Resources */,
+				A482F6141B7007CE0019F1AA /* data.db in Resources */,
+				A4C7743A1AF6850900D5485A /* Main_iPhone.storyboard in Resources */,
+				A42D53BC1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */,
+				A482F6101B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */,
+				A4C774401AF6850900D5485A /* Images.xcassets in Resources */,
+				A4C774411AF6850900D5485A /* LaunchScreen.xib in Resources */,
+				A42D53DC1C55959100943F35 /* WhatsNew.xcassets in Resources */,
+				A42D53D81C55959100943F35 /* WhatsNew.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48B1E1AF298EF00EF5306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C774501AF687E300D5485A /* LaunchScreen_Vegan.xib in Resources */,
+				A42D53DD1C55959100943F35 /* WhatsNew.xcassets in Resources */,
+				A482F6111B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */,
+				A42D53BD1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */,
+				A4E48B1F1AF298EF00EF5306 /* Localizable.strings in Resources */,
+				A42D53D91C55959100943F35 /* WhatsNew.storyboard in Resources */,
+				A4E48B241AF298EF00EF5306 /* Main_iPhone.storyboard in Resources */,
+				A4E48B2A1AF298EF00EF5306 /* Images.xcassets in Resources */,
+				A482F6151B7007CE0019F1AA /* data.db in Resources */,
+				A4E48B2B1AF298EF00EF5306 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48B571AF2994300EF5306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C774511AF687E300D5485A /* LaunchScreen_Vegan.xib in Resources */,
+				A42D53DE1C55959100943F35 /* WhatsNew.xcassets in Resources */,
+				A482F6121B7007CE0019F1AA /* App_Changes_Log.rtf in Resources */,
+				A42D53BE1C55959100943F35 /* AMSmoothAlert.xcassets in Resources */,
+				A4E48B581AF2994300EF5306 /* Localizable.strings in Resources */,
+				A42D53DA1C55959100943F35 /* WhatsNew.storyboard in Resources */,
+				A4E48B5D1AF2994300EF5306 /* Main_iPhone.storyboard in Resources */,
+				A4E48B631AF2994300EF5306 /* Images.xcassets in Resources */,
+				A482F6161B7007CE0019F1AA /* data.db in Resources */,
+				A4E48B641AF2994300EF5306 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4C774461AF6850900D5485A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 940d5371666d7a1b9fc4f31c09c2d525419ac49a 39e7a555bb441960c74985a718b11acfbd9cb39f87d147707f1a9d3b25151265";
+		};
+		A4E48B301AF298EF00EF5306 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 940d5371666d7a1b9fc4f31c09c2d525419ac49a 39e7a555bb441960c74985a718b11acfbd9cb39f87d147707f1a9d3b25151265";
+		};
+		A4E48B691AF2994300EF5306 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 940d5371666d7a1b9fc4f31c09c2d525419ac49a 39e7a555bb441960c74985a718b11acfbd9cb39f87d147707f1a9d3b25151265";
+		};
+		A4E93E8E19D3365300EC5D8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 940d5371666d7a1b9fc4f31c09c2d525419ac49a 39e7a555bb441960c74985a718b11acfbd9cb39f87d147707f1a9d3b25151265";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B5F99A19CDAE1200CDCFC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A2CD2A1B5F2476001D1493 /* VC_Help.swift in Sources */,
+				A4A2CD1F1B5EDED8001D1493 /* cell_Color.swift in Sources */,
+				A4A2CD0A1B5EB76C001D1493 /* AppDelegate.swift in Sources */,
+				A42BF9731A508B2800A0D368 /* VC_Translation.m in Sources */,
+				A42D53EB1C55959100943F35 /* Constants.swift in Sources */,
+				A45C818F19D2213F00A0C863 /* Cell_Questions.m in Sources */,
+				A42D53BF1C55959100943F35 /* AMSmoothAlertView.m in Sources */,
+				A42D53B71C55959100943F35 /* AMBouncingView.m in Sources */,
+				A4A2CD0E1B5EB76C001D1493 /* AppFunctions.swift in Sources */,
+				A487C13B1B3C78F500C3C9DC /* Cell_Animals.m in Sources */,
+				A4B5F9A719CDAE1200CDCFC3 /* AppDelegate.m in Sources */,
+				A42D53D31C55959100943F35 /* VC_WhatIsNew.swift in Sources */,
+				A49AA1B019E0567300D00BE2 /* Cell_Themes.m in Sources */,
+				A42D53E31C55959100943F35 /* ClassExtensions.swift in Sources */,
+				A42D53EF1C55959100943F35 /* DeviceList.swift in Sources */,
+				A4B5F9A419CDAE1200CDCFC3 /* main.m in Sources */,
+				A42991621B603D5000BE4071 /* cell_Apps.swift in Sources */,
+				A4B5FA5E19CE55A800CDCFC3 /* VC_Languages.m in Sources */,
+				A42D53F31C55959100943F35 /* Extensions.swift in Sources */,
+				A42D53E71C55959100943F35 /* Colors.swift in Sources */,
+				A43B216C1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */,
+				A4A2CCEE1B5EAA30001D1493 /* VC_About.swift in Sources */,
+				A4B634EB19F431B4003E9683 /* iCarousel.m in Sources */,
+				A4A2CD251B5EE44C001D1493 /* VC_Main.m in Sources */,
+				A4BC7C8A19CF6C7300314E69 /* Cell_Countries.m in Sources */,
+				A4A2CD121B5EB76C001D1493 /* AppInfo.swift in Sources */,
+				A42D53FB1C55959100943F35 /* SharedFunctions.swift in Sources */,
+				A43B21681B726DAC0062C4E4 /* cell_About.swift in Sources */,
+				A42D53F71C55959100943F35 /* Reachability.swift in Sources */,
+				A42991661B603D5000BE4071 /* cell_Links.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C774141AF6850900D5485A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A2CD2B1B5F2476001D1493 /* VC_Help.swift in Sources */,
+				A4A2CD201B5EDED8001D1493 /* cell_Color.swift in Sources */,
+				A4A2CD0B1B5EB76C001D1493 /* AppDelegate.swift in Sources */,
+				A4C774171AF6850900D5485A /* VC_Translation.m in Sources */,
+				A42D53EC1C55959100943F35 /* Constants.swift in Sources */,
+				A4C774181AF6850900D5485A /* Cell_Questions.m in Sources */,
+				A42D53C01C55959100943F35 /* AMSmoothAlertView.m in Sources */,
+				A42D53B81C55959100943F35 /* AMBouncingView.m in Sources */,
+				A4A2CD0F1B5EB76C001D1493 /* AppFunctions.swift in Sources */,
+				A487C13C1B3C78F500C3C9DC /* Cell_Animals.m in Sources */,
+				A4C7741B1AF6850900D5485A /* AppDelegate.m in Sources */,
+				A42D53D41C55959100943F35 /* VC_WhatIsNew.swift in Sources */,
+				A4C7741E1AF6850900D5485A /* Cell_Themes.m in Sources */,
+				A42D53E41C55959100943F35 /* ClassExtensions.swift in Sources */,
+				A42D53F01C55959100943F35 /* DeviceList.swift in Sources */,
+				A4C774201AF6850900D5485A /* main.m in Sources */,
+				A42991631B603D5000BE4071 /* cell_Apps.swift in Sources */,
+				A4C774211AF6850900D5485A /* VC_Languages.m in Sources */,
+				A42D53F41C55959100943F35 /* Extensions.swift in Sources */,
+				A42D53E81C55959100943F35 /* Colors.swift in Sources */,
+				A43B216D1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */,
+				A4A2CCEF1B5EAA30001D1493 /* VC_About.swift in Sources */,
+				A4C774221AF6850900D5485A /* iCarousel.m in Sources */,
+				A4A2CD261B5EE44C001D1493 /* VC_Main.m in Sources */,
+				A4C774241AF6850900D5485A /* Cell_Countries.m in Sources */,
+				A4A2CD131B5EB76C001D1493 /* AppInfo.swift in Sources */,
+				A42D53FC1C55959100943F35 /* SharedFunctions.swift in Sources */,
+				A43B21691B726DAC0062C4E4 /* cell_About.swift in Sources */,
+				A42D53F81C55959100943F35 /* Reachability.swift in Sources */,
+				A42991671B603D5000BE4071 /* cell_Links.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48AFE1AF298EF00EF5306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A2CD2C1B5F2476001D1493 /* VC_Help.swift in Sources */,
+				A4A2CD211B5EDED8001D1493 /* cell_Color.swift in Sources */,
+				A4A2CD0C1B5EB76C001D1493 /* AppDelegate.swift in Sources */,
+				A4E48B011AF298EF00EF5306 /* VC_Translation.m in Sources */,
+				A42D53ED1C55959100943F35 /* Constants.swift in Sources */,
+				A4E48B021AF298EF00EF5306 /* Cell_Questions.m in Sources */,
+				A42D53C11C55959100943F35 /* AMSmoothAlertView.m in Sources */,
+				A42D53B91C55959100943F35 /* AMBouncingView.m in Sources */,
+				A4A2CD101B5EB76C001D1493 /* AppFunctions.swift in Sources */,
+				A487C13D1B3C78F500C3C9DC /* Cell_Animals.m in Sources */,
+				A4E48B051AF298EF00EF5306 /* AppDelegate.m in Sources */,
+				A42D53D51C55959100943F35 /* VC_WhatIsNew.swift in Sources */,
+				A4E48B081AF298EF00EF5306 /* Cell_Themes.m in Sources */,
+				A42D53E51C55959100943F35 /* ClassExtensions.swift in Sources */,
+				A42D53F11C55959100943F35 /* DeviceList.swift in Sources */,
+				A4E48B0A1AF298EF00EF5306 /* main.m in Sources */,
+				A42991641B603D5000BE4071 /* cell_Apps.swift in Sources */,
+				A4E48B0B1AF298EF00EF5306 /* VC_Languages.m in Sources */,
+				A42D53F51C55959100943F35 /* Extensions.swift in Sources */,
+				A42D53E91C55959100943F35 /* Colors.swift in Sources */,
+				A43B216E1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */,
+				A4A2CCF01B5EAA30001D1493 /* VC_About.swift in Sources */,
+				A4E48B0C1AF298EF00EF5306 /* iCarousel.m in Sources */,
+				A4A2CD271B5EE44C001D1493 /* VC_Main.m in Sources */,
+				A4E48B0E1AF298EF00EF5306 /* Cell_Countries.m in Sources */,
+				A4A2CD141B5EB76C001D1493 /* AppInfo.swift in Sources */,
+				A42D53FD1C55959100943F35 /* SharedFunctions.swift in Sources */,
+				A43B216A1B726DAC0062C4E4 /* cell_About.swift in Sources */,
+				A42D53F91C55959100943F35 /* Reachability.swift in Sources */,
+				A42991681B603D5000BE4071 /* cell_Links.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E48B371AF2994300EF5306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A2CD2D1B5F2476001D1493 /* VC_Help.swift in Sources */,
+				A4A2CD221B5EDED8001D1493 /* cell_Color.swift in Sources */,
+				A4A2CD0D1B5EB76C001D1493 /* AppDelegate.swift in Sources */,
+				A4E48B3A1AF2994300EF5306 /* VC_Translation.m in Sources */,
+				A42D53EE1C55959100943F35 /* Constants.swift in Sources */,
+				A4E48B3B1AF2994300EF5306 /* Cell_Questions.m in Sources */,
+				A42D53C21C55959100943F35 /* AMSmoothAlertView.m in Sources */,
+				A42D53BA1C55959100943F35 /* AMBouncingView.m in Sources */,
+				A4A2CD111B5EB76C001D1493 /* AppFunctions.swift in Sources */,
+				A487C13E1B3C78F500C3C9DC /* Cell_Animals.m in Sources */,
+				A4E48B3E1AF2994300EF5306 /* AppDelegate.m in Sources */,
+				A42D53D61C55959100943F35 /* VC_WhatIsNew.swift in Sources */,
+				A4E48B411AF2994300EF5306 /* Cell_Themes.m in Sources */,
+				A42D53E61C55959100943F35 /* ClassExtensions.swift in Sources */,
+				A42D53F21C55959100943F35 /* DeviceList.swift in Sources */,
+				A4E48B431AF2994300EF5306 /* main.m in Sources */,
+				A42991651B603D5000BE4071 /* cell_Apps.swift in Sources */,
+				A4E48B441AF2994300EF5306 /* VC_Languages.m in Sources */,
+				A42D53F61C55959100943F35 /* Extensions.swift in Sources */,
+				A42D53EA1C55959100943F35 /* Colors.swift in Sources */,
+				A43B216F1B726DAC0062C4E4 /* cell_AboutHeader.swift in Sources */,
+				A4A2CCF11B5EAA30001D1493 /* VC_About.swift in Sources */,
+				A4E48B451AF2994300EF5306 /* iCarousel.m in Sources */,
+				A4A2CD281B5EE44C001D1493 /* VC_Main.m in Sources */,
+				A4E48B471AF2994300EF5306 /* Cell_Countries.m in Sources */,
+				A4A2CD151B5EB76C001D1493 /* AppInfo.swift in Sources */,
+				A42D53FE1C55959100943F35 /* SharedFunctions.swift in Sources */,
+				A43B216B1B726DAC0062C4E4 /* cell_About.swift in Sources */,
+				A42D53FA1C55959100943F35 /* Reachability.swift in Sources */,
+				A42991691B603D5000BE4071 /* cell_Links.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4F6D68E1A06CAF800BCBBCC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F6D68D1A06CAF800BCBBCC /* Base */,
+				A4F6D68F1A06CB7300BCBBCC /* en */,
+				A4F6D6901A06CFF200BCBBCC /* zh-Hans */,
+				A4F6D6911A06CFFA00BCBBCC /* ja */,
+				A4F6D6921A06D00200BCBBCC /* es */,
+				A4F6D6931A06D00800BCBBCC /* pt */,
+				A4F6D6941A06D01200BCBBCC /* it */,
+				A4F6D6951A06D01800BCBBCC /* ru */,
+				A4F6D6961A06D02200BCBBCC /* ar */,
+				A4F6D6971A06D03A00BCBBCC /* fr */,
+				A4F6D6981A06D04C00BCBBCC /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B5F9BF19CDAE1200CDCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/kevinmessina/Desktop/Client Apps/V- Vegoagogo/Vegoagogo/Vegoagogo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A4B5F9C019CDAE1200CDCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/kevinmessina/Desktop/Client Apps/V- Vegoagogo/Vegoagogo/Vegoagogo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		A4B5F9C219CDAE1200CDCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Veggo";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kevin Messina (556Y2RY2QZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Messina (556Y2RY2QZ)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_VEG=1",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veggoagogo (Beta)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvmagicstudios.veggoagogo.DevVer;
+				PRODUCT_NAME = Veggoagogo;
+				PROVISIONING_PROFILE = "62682d83-50f8-465e-92d0-ef32ad150be1";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A4B5F9C319CDAE1200CDCFC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Veggo";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DVMagic Studios, Inc. (9UBC98R58W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DVMagic Studios, Inc. (9UBC98R58W)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VEG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veggoagogo (Beta)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvmagicstudios.veggoagogo.DevVer;
+				PRODUCT_NAME = Veggoagogo;
+				PROVISIONING_PROFILE = "fd1cb619-a4fa-484b-8d03-0fb084b73da4";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		A4C774481AF6850900D5485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Veggo";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dodson (6PV9B6VSW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dodson (6PV9B6VSW2)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_VEG=1",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veggoagogo (AppStore)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2camels.veggoagogo;
+				PRODUCT_NAME = Veggoagogo;
+				PROVISIONING_PROFILE = "751c00c8-4b05-4f04-a418-845c88d6042e";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A4C774491AF6850900D5485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Veggo";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Paul Dodson (235YVH73KV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Paul Dodson (235YVH73KV)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VEG=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veggoagogo (AppStore)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2camels.veggoagogo;
+				PRODUCT_NAME = Veggoagogo;
+				PROVISIONING_PROFILE = "fd112759-adc4-481e-8ed9-8f0bf703e4ed";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		A4E48B321AF298EF00EF5306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vegan";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vegan";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kevin Messina (556Y2RY2QZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Messina (556Y2RY2QZ)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_VEGAN=1",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veganagogo (Beta)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvmagicstudios.veganagogo.DevVer;
+				PRODUCT_NAME = Veganagogo;
+				PROVISIONING_PROFILE = "53fda5d7-e6fd-4e04-b0ed-b73c8928a9ff";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A4E48B331AF298EF00EF5306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vegan";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vegan";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DVMagic Studios, Inc. (9UBC98R58W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DVMagic Studios, Inc. (9UBC98R58W)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VEGAN=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veganagogo (Beta)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dvmagicstudios.veganagogo.DevVer;
+				PRODUCT_NAME = Veganagogo;
+				PROVISIONING_PROFILE = "c67fc3dc-c1aa-42b6-95a9-1bc5f14ecab4";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		A4E48B6B1AF2994300EF5306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vegan";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vegan";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Dodson (6PV9B6VSW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Dodson (6PV9B6VSW2)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_VEGAN=1",
+					"DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veganagogo (AppStore)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2Camels.veganagogo;
+				PRODUCT_NAME = Veganagogo;
+				PROVISIONING_PROFILE = "751c00c8-4b05-4f04-a418-845c88d6042e";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		A4E48B6C1AF2994300EF5306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Vegan";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-Vegan";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Paul Dodson (235YVH73KV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Paul Dodson (235YVH73KV)";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Volumes/Files/Development/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Vegoagogo/Vegoagogo.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_VEGAN=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Vegoagogo/Veganagogo (AppStore)-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vegoagogo/SHARED/Flurry",
+					/Volumes/Files/Development/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2Camels.veganagogo;
+				PRODUCT_NAME = Veganagogo;
+				PROVISIONING_PROFILE = "fd112759-adc4-481e-8ed9-8f0bf703e4ed";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Vegoagogo/Bridging-Header.h";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B5F99919CDAE1200CDCFC3 /* Build configuration list for PBXProject "Vegoagogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B5F9BF19CDAE1200CDCFC3 /* Debug */,
+				A4B5F9C019CDAE1200CDCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B5F9C119CDAE1200CDCFC3 /* Build configuration list for PBXNativeTarget "Veggoagogo_Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B5F9C219CDAE1200CDCFC3 /* Debug */,
+				A4B5F9C319CDAE1200CDCFC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C774471AF6850900D5485A /* Build configuration list for PBXNativeTarget "Veggoagogo_AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4C774481AF6850900D5485A /* Debug */,
+				A4C774491AF6850900D5485A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E48B311AF298EF00EF5306 /* Build configuration list for PBXNativeTarget "Veganagogo_Beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E48B321AF298EF00EF5306 /* Debug */,
+				A4E48B331AF298EF00EF5306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E48B6A1AF2994300EF5306 /* Build configuration list for PBXNativeTarget "Veganagogo_AppStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E48B6B1AF2994300EF5306 /* Debug */,
+				A4E48B6C1AF2994300EF5306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B5F99619CDAE1200CDCFC3 /* Project object */;
+}

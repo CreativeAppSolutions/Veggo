@@ -1,0 +1,77 @@
+/* zh-Hans (CHINESE-Simplified) Localized Strings */
+
+/* APPIRATOR */
+    "APPIRATOR_AppFullName" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VEG" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VGN" = "Veganagogo";
+
+    "APPIRATOR_Title" = "率 %@";
+    "APPIRATOR_Msg" = "如果你喜欢使用％@你不介意花一些时间来评分？\n\n谢谢您的支持！";
+    "APPIRATOR_Btn_Rate" = "率 %@";
+    "APPIRATOR_Btn_Remind" = "以后提醒我";
+    "APPIRATOR_Btn_No" = "不，谢谢";
+
+/* SETTINGS */
+    "Settings_Title" = "设置";
+    "Settings_ChooseTheme" = "选择一个主题";
+
+/* ABOUT */
+    "About_Version" = "版本";
+    "About_AllRights" = "版权所有";
+    "About_Visit" = "访问我们的网站";
+    "About_Blurb_Vegan" = "这里，就在Agogo Apps，我们着眼于做一件事，并且只做一件事，但我们希望真正做好它。我们正在努力为现代素食主义游客提供一个应用，在令让素食主义者已经担心了几十年的情况中至少借给他们一点信心——在海外旅游时点素菜。";
+    "About_Blurb_Veggo" = "这里，就在Agogo Apps，我们着眼于做一件事，并且只做一件事，但我们希望真正做好它。我们正在努力为现代素食主义游客提供一个应用，在令让素食主义者已经担心了几十年的情况中至少借给他们一点信心——在海外旅游时点素菜。";
+    "About_Dev" = "定制开发的";
+    "About_by" = "由";
+    "About_Title_Themes" = "主题";
+    "About_Title_Apps" = "应用程序";
+    "About_Title_About" = "大约";
+    "About_Show_About" = "关于展示";
+    "About_Show_Stats" = "资料统计";
+
+/* Help */
+    "Help_Vegetarian_verbiage" = "素食主义者";
+    "Help_Vegan_verbiage" = "纯素食主义者";
+    "Help_Vegetarian_verbiage_plural" = "素食者";
+    "Help_Vegan_verbiage_plural" = "纯素食主义者";
+    "Help_Title" = "救命";
+    "Help_Overview_1" = "应用概述";
+    "Help_Overview_2" = "在这里 \(appInfo.EDITION.Name) 我们希望做一件事，一件事独自一人，但我们希望做的确实很好。";
+    "Help_Overview_3" = "我们正在努力为客户提供现代 \(verbiage) 旅客提供一个应用程序，借给至少有一点信心，这种情况已经填补了 \(verbiage) 与恐惧了几十年 - 序 \(verbiage) 食物，而行驶在异国的土地。";
+    "Help_Overview_4" = "该 \(verbiage) 版 \(appInfo.EDITION.Name) 是一个有趣和简单的方式来传达你的 \(verbiage) 饮食要求任何人您的旅行，满足 - 从餐厅工作人员和酒店接待员有益的本地人和新发现的朋友。";
+    "Help_Using_1" = "运用 \(appInfo.EDITION.Name)";
+    "Help_Using_2" = "从所提供的七个问题或陈述，选择了50种语言的翻译之一，挖掘翻译图标，你离开。它就是这么简单。";
+    "Help_Using_3" = "一旦你做了你最初的选择，你会发现你的设备的屏幕会自动旋转至水平位置，因此很容易让你在显示屏幕的翻译文本，以您的热切地等待服务员，厨师，门卫还是很有帮助的地方。";
+    "Help_Using_4" = "在同一屏幕翻译的左上角，你会发现一个白天和黑夜的图标。攻其将开关在浅色背景从暗文本的当前显示为浅色文字在黑暗的背景，然后再返回图标。随意尝试哪个选项在当前的照明环境显示最好的。";
+    "Help_Using_5" = "您也可以通过从屏幕中央底部边缘向上轻扫来调整设备的显示器的整体亮度。";
+    "Help_Using_6" = "在为中心的翻译屏幕的顶部是一系列动画的动物形象，在视觉上备份您选择的翻译文本消息。攻丝任何这些图像显示特定图像的放大版本。你必须通过这些较大的图像通过刷卡你的屏幕左，右，然后滚动的能力。";
+    "Help_Using_7" = "敲击（X）关闭按钮即可返回到上一画面。";
+    "Help_Languages_1" = "语言";
+    "Help_Languages_2" = "您可以轻松地在50个专业翻译语文的任何一种显示所选问题或陈述 \(appInfo.EDITION.Name) 提供。";
+    "Help_Languages_3" = "只需通过点击该标志或在主屏幕的左下角显示的语言选择一种翻译语言。";
+    "Help_Languages_4" = "请记住标志语言涉及到他们最密切代表，不一定目的地您正在访问的国家。例如，西班牙语是口语在墨西哥，但用于表示西班牙语的标志是西班牙国旗。";
+    "Help_Questions_1" = "问题和声明";
+    "Help_Questions_2" = "花了很多心思和大量的研究 - 在几十年的一些非常广泛的旅行后面 - 已经进入了\（appInfo.EDITION.Name）的开发，特别是对问题和声明，我们已经选择了翻译。";
+    "Help_Questions_3" = "我们真诚地希望您的旅行小径上到处是五星\（空话）的餐饮经验，尽管事情肯定是在提高一般为\（空话）旅客，仍有许多国家的素食仍然是一个几乎陌生的概念。";
+    "Help_Questions_4" = "我们认识比萨饼店和印度餐馆是远离善的唯一来源 \(verbiage) 现有的道路，但一次又一次的食品我们吸引到这些 \(verbiage) 主食，特别是当我们的选择是有限的。这是因为这个原因，他们得到他们自己的问题。";
+    "Help_Settings_1" = "设置";
+    "Help_Settings_2" = "为什么不香料您 \(appInfo.EDITION.Name) 体验到你的目的地的味道与多种预设的色彩主题，我们提供了一个匹配。只需点击设置按钮，选择一个主题，瞧，你会发现你的背景渐变即时更新。";
+    "Help_Settings_3" = "点击（ℹ︎）信息按钮显示的当前版本 \(appInfo.EDITION.Name) 应用程序以了解多一点关于我们的公司。或点击我们的标志，请访问我们的网站，你可以跟上日期所发生的事情与 \(appInfo.EDITION.Name), 按照我们在社交媒体或通过发送您的想法和思路方面，我们可以提高我们的应用程序的未来版本。";
+    "Help_Help_1" = "救命";
+    "Help_Help_2" = "此屏幕上显示的文字的大小可以通过拖动滑块下方的左，右调节。";
+    "Help_Thanks_1" = "谢谢";
+    "Help_Thanks_2" = "我们想发出一个大纤维包装感谢可笑天才 Cat MacInnes (www.CatMacInnes.com) 她愉快的动物插图和 Kevin 而他的精彩团队 Creative App Solutions LLC (www.CreativeApps.us) 对于过度交付，比原计划提前，根据预算对事物的iOS开发方。";
+    "Help_Thanks_3" = "我们的专业翻译被自如处理时被球队 Translated.net.";
+    "Help_Conclusion_1" = "我们希望您喜欢使用";
+    "Help_Conclusion_2" = "请访问我们的网站： \(appInfo.EDITION.Website_URL) 或关注我们的Twitter \(appInfo.EDITION.Twitter_URL).";
+    "Help_Conclusion_3" = "如果您在使用我们的应用程序很享受，我们真的很感激，如果你能花一分钟给我们一个很好的评价，在iTunes的应用程序商店。";
+
+/* Language */
+    "Language_Title" = "语言";
+    "Language_Translate" = "要翻译";
+
+/* Main */
+
+/* Translation */
+
+/* LargeLogo */

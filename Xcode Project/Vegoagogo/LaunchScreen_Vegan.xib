@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-Vegan" translatesAutoresizingMaskIntoConstraints="NO" id="TqD-JM-Tqb">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Y3-9N-ZfM">
+                    <rect key="frame" x="121" y="77" width="239" height="245"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="wmz-WI-Bg6">
+                            <rect key="frame" x="22" y="0.0" width="194" height="194"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppName-Vegan" translatesAutoresizingMaskIntoConstraints="NO" id="zeM-q1-HQe">
+                            <rect key="frame" x="14" y="189" width="211" height="56"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="239" id="GVO-7r-sA9"/>
+                        <constraint firstAttribute="height" constant="245" id="ncO-jY-TrS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="8Y3-9N-ZfM" secondAttribute="centerY" constant="40.5" id="0RX-WP-Geq"/>
+                <constraint firstAttribute="trailing" secondItem="TqD-JM-Tqb" secondAttribute="trailing" id="IEG-70-6Cl"/>
+                <constraint firstItem="TqD-JM-Tqb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aTg-6Z-Wax"/>
+                <constraint firstAttribute="bottom" secondItem="TqD-JM-Tqb" secondAttribute="bottom" id="cJd-s2-Q9m"/>
+                <constraint firstAttribute="centerX" secondItem="8Y3-9N-ZfM" secondAttribute="centerX" id="r9l-JT-T4V"/>
+                <constraint firstItem="TqD-JM-Tqb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vpx-jQ-zmM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AppName-Vegan" width="248" height="67"/>
+        <image name="Background-Vegan" width="409" height="728"/>
+        <image name="Logo" width="168" height="168"/>
+    </resources>
+</document>

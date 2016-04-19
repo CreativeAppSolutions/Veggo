@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Veganagogo_AppStore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Veganagogo_Beta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Veggoagogo_AppStore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Veggoagogo_Beta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A4B5F99D19CDAE1200CDCFC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4B5F9B619CDAE1200CDCFC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4C774131AF6850900D5485A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4E48AFD1AF298EF00EF5306</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4E48B361AF2994300EF5306</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

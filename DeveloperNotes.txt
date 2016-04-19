@@ -1,0 +1,18 @@
+Developer Notes:
+
+Language Questions as stored using NSKeyedArchive methods to SQLite database to preserve all editing and accent characters for international text. 
+
+Because of this, an editing method is in place within the app that takes the input of Country Name (Must be verbatim for language name in the Languages table as it’s a keyed search item) and the questions. 
+
+Uncomment the [self SQL_UpdateQuestions]; and abort(); methods in -(void)initialize section of VC_Translation.m source code file.
+
+Edit the information within SQL_UpdateQuestions method (self explanatory in code), run in simulator, press TRANSLATE button and app will write the new records and abort when done. 
+
+Because main bundle files can’t be edited, it has to copy the data.db file to the sandbox directory \documents to be able to write to it. You can find this file easily by looking in the Console/debug window of Xcode where the path is output to be easily copied to Finder app. Copy the data.db file from the sandbox to the main bundle \data folder.
+
+Repeat as many times as necessary to add new languages. 
+
+Comment the [self SQL_UpdateQuestions]; and abort(); methods in -(void)initialize section of VC_Translation.m source code file.
+
+< End of Document >
+

@@ -1,0 +1,75 @@
+/* it (ITALIAN) Localized Strings */
+
+/* APPIRATOR */
+    "APPIRATOR_AppFullName" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VEG" = "Veggoagogo";
+    "APPIRATOR_AppFullName_VGN" = "Veganagogo";
+
+    "APPIRATOR_Title" = "Tasso %@";
+    "APPIRATOR_Msg" = "Se vi piace utilizzando% @ Ti dispiacerebbe prendere un momento per votarla?\n\nGrazie per il vostro supporto!";
+    "APPIRATOR_Btn_Rate" = "Tasso %@";
+    "APPIRATOR_Btn_Remind" = "Ricorda in seguito";
+    "APPIRATOR_Btn_No" = "No, grazie";
+
+/* SETTINGS */
+    "Settings_Title" = "Impostazioni";
+    "Settings_ChooseTheme" = "Scegli un tema";
+
+/* ABOUT */
+    "About_Version" = "versione";
+    "About_AllRights" = "Tutti i diritti riservati";
+    "About_Visit" = "Visita il nostro sito Internet";
+    "About_Blurb_Vegan" = "Qui a Agogo Apps cerchiamo di fare una sola cosa, ma speriamo di farla bene davvero. Stiamo lavorando sodo per offrire al viaggiatore vegano di oggi un'app che dia almeno un po' di sicurezza in una situazione che ha terrorizzato i vegani per decenni: ordinare cibo vegano quando si viaggia all'estero.";
+    "About_Blurb_Veggo" = "Qui a Agogo Apps cerchiamo di fare una sola cosa, ma speriamo di farla bene davvero. Stiamo lavorando sodo per offrire al viaggiatore vegetariano di oggi un'app che dia almeno un po' di sicurezza in una situazione che ha terrorizzato i vegetariani per decenni: ordinare cibo vegetariano quando si viaggia all'estero.";
+    "About_Dev" = "Personalizzata sviluppata per";
+    "About_by" = "da";
+    "About_Title_Themes" = "Temi";
+    "About_Title_Apps" = "Applicazioni";
+    "About_Title_About" = "di";
+    "About_Show_About" = "Mostra Circa";
+    "About_Show_Stats" = "Visualizza statistiche";
+
+/* Help */
+    "Help_Vegetarian_verbiage" = "vegetariano";
+    "Help_Vegan_verbiage" = "vegan";
+    "Help_Title" = "Aiuto";
+    "Help_Overview_1" = "Visão geral app";
+    "Help_Overview_2" = "Aqui no \(appInfo.EDITION.Name) nós estamos olhando para fazer uma coisa e uma coisa só, mas nós estamos esperando para fazê-lo muito bem.";
+    "Help_Overview_3" = "Estamos trabalhando duro para fornecer o viajante moderno \(verbiage) com um aplicativo que empresta pelo menos um pouco de confiança a uma situação que tem enchido a \(verbiage) com temor há décadas - ordenação \(verbiage) alimentos ao viajar em um terra estrangeira.";
+    "Help_Overview_4" = "O \(verbiage) edição da \(appInfo.EDITION.Name) é um divertido e fácil maneira de comunicar sua \(verbiage) necessidades dietéticas para quem você se encontra em suas viagens - a partir de funcionários do restaurante do hotel e recepcionistas para moradores votos e recém-amigos encontrados.";
+    "Help_Using_1" = "Uso \(appInfo.EDITION.Name)";
+    "Help_Using_2" = "Selecione uma pergunta ou declaração do sete em oferta, escolher um dos 50 idiomas disponíveis para tradução, toque no ícone traduzir e você estiver ausente. É realmente muito simples.";
+    "Help_Using_3" = "Depois de ter feito sua seleção inicial, você encontrará a tela do seu aparelho irá rodar automaticamente para a posição horizontal, tornando mais fácil para você exibir o texto da tela tradução para o seu aguardando ansiosamente garçom, cozinheiro, porteiro ou útil local.";
+    "Help_Using_4" = "No canto superior esquerdo da tela mesmo que a tradução, você verá um ícone de dia e de noite. Tocar no ícone que irá mudar a visualização atual do texto escuro sobre um fundo claro para texto claro em um fundo escuro e vice-versa. Sinta-se livre para experimentar a respeito de qual opção exibe melhor em seu ambiente de iluminação actual.";
+    "Help_Using_5" = "Você também pode querer ajustar o brilho geral do visor do dispositivo passando para cima a partir da borda inferior central da tela.";
+    "Help_Using_6" = "Centrado na parte superior da tela a tradução é uma série de animação imagens animais, que trás visualmente a sua mensagem de texto traduzido selecionado. Tocar em qualquer uma dessas imagens exibe uma versão maior dessa imagem particular. Você tem a capacidade para, em seguida, percorrer estas imagens maiores, passando o ecrã tanto à esquerda e à direita.";
+    "Help_Using_7" = "Tocar no (x) botão para fechar o levará de volta à tela anterior.";
+    "Help_Languages_1" = "Idiomas";
+    "Help_Languages_2" = "Você pode facilmente exibir perguntas selecionadas ou declarações em qualquer uma das 50 línguas traduzidas profissionalmente \(appInfo.EDITION.Name) oferece.";
+    "Help_Languages_3" = "Basta selecionar um idioma de tradução clicando a bandeira ou o idioma exibido no canto inferior esquerdo da tela principal.";
+    "Help_Languages_4" = "Tenha em mente as bandeiras para as línguas se relacionam com os países que mais se aproxima representam, não necessariamente o destino que você está visitando. Por exemplo, o espanhol é falado no México, mas a bandeira usada para representar a língua espanhola é a bandeira espanhola.";
+    "Help_Questions_1" = "Perguntas e declarações";
+    "Help_Questions_2" = "Um lote de pensamento e muita pesquisa - na parte de trás de um par de décadas de alguns bastante extensa viagem - tem ido para o desenvolvimento de \(appInfo.EDITION.Name) e, nomeadamente, as perguntas e afirmações que escolhemos para tradução.";
+    "Help_Questions_3" = "Esperamos, sinceramente, que suas trilhas de viagem estão repletas de cinco estrelas experiências \(verbiage) refeições e enquanto as coisas estão definitivamente sobre a melhorar, em geral, para o viajante \(verbiage), ainda existem muitos países onde \(verbiage) comida continua a ser um conceito quase estrangeiro.";
+    "Help_Questions_4" = "Percebemos pizzarias e restaurantes indianos estão longe de ser as únicas fontes de boa \(verbiage) alimentos disponíveis na estrada, mas uma e outra vez nós estamos atraídos para esses \(palavreado grampos), especialmente quando nossas escolhas são limitadas. É por essa razão que recebem a sua própria pergunta.";
+    "Help_Settings_1" = "Definições";
+    "Help_Settings_2" = "Por que não apimentar a sua experiência \(appInfo.EDITION.Name) para combinar o sabor do seu destino com um dos muitos temas de cores pré-definidas que oferecemos. Basta tocar no botão de configurações e selecionar um tema e voila, você encontrará o seu fundo gradiente atualiza instantaneamente.";
+    "Help_Settings_3" = "Toque no (ℹ︎) botão de informações para exibir a versão atual do (appInfo.EDITION.Name) app \ e para aprender um pouco mais sobre nossa empresa. Ou clique no nosso logotipo a visitar o nosso site onde você pode manter-se atualizado com o que está acontecendo com \(appInfo.EDITION.Name), siga-nos no mídias sociais ou enviar através de seus pensamentos e ideias para maneiras que podemos melhorar futuras versões do nosso app.";
+    "Help_Help_1" = "Aiuto";
+    "Help_Help_2" = "O tamanho do texto exibido na tela pode ser ajustado arrastando o controle deslizante abaixo à esquerda e à direita.";
+    "Help_Thanks_1" = "Obrigado";
+    "Help_Thanks_2" = "Nós gostaríamos de mandar um grande obrigado repleto de fibra para os MacInnes gato ridiculamente-talentosos (www.CatMacInnes.com) para suas ilustrações de animais encantadores e com Kevin e sua equipe maravilhosa no Creative App Solutions LLC (www.CreativeApps.us ) para o excesso de entrega, antes do prazo e abaixo do orçamento no lado do desenvolvimento iOS das coisas.";
+    "Help_Thanks_3" = "Nossas traduções profissionais foram tratadas com desenvoltura pela equipe Translated.net.";
+    "Help_Conclusion_1" = "Esperamos que você goste de usar";
+    "Help_Conclusion_2" = "Visite o nosso site em \(appInfo.EDITION.Website_URL) ou siga-nos no Twitter em \(appInfo.EDITION.Twitter_URL).";
+    "Help_Conclusion_3" = "Se você gostou usando nosso aplicativo, nós realmente aprecio isso se você pudesse ter um minuto para nos dar uma boa classificação na iTunes App Store.";
+
+/* Language */
+    "Language_Title" = "Lingue";
+    "Language_Translate" = "Traduci in";
+
+/* Main */
+
+/* Translation */
+
+/* LargeLogo */
